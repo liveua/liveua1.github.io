@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>我的图片网站</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .nav {
+      height: 60px;
+      background-color: #333;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .nav h1 {
+      color: white;
+      font-size: 24px;
+      margin-left: 20px;
+    }
+    .nav ul {
+      list-style: none;
+      display: flex;
+      margin-right: 20px;
+    }
+    .nav ul li {
+      margin-left: 10px;
+    }
+    .nav ul li a {
+      color: white;
+      text-decoration: none;
+    }
+    .main {
+      display: flex;
+      height: calc(100vh - 90px);
+    }
+    .show {
+      width: 100%;
+      background-color: #eee;
+      display: flow-root;
+      align-items: center;
+      justify-content: center;
+    }
+    .show img {
+      max-width: 100%;
+      max-height: 100%;
+    }
+    .list {
+      width: 30%;
+      overflow-y: scroll;
+    }
+    .list img {
+      width: 100%;
+      height: auto;
+      cursor: pointer;
+    }
+    .footer {
+  height: 30px;  /* 设置footer的高度 */
+  background-color: #333; /* 背景色为灰色*/
+  color: white;   /* 文本颜色为白色 */
+  display: flex;   /* 使用flex布局 */
+  align-items: center; /* 垂直居中 */
+  justify-content: center; /* 水平居中 */
+}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="nav">
+      <h1>666</h1>
+      <ul>
+        <li><a href="#"> </a></li>
+        <li><a href="#"> </a></li>
+        <li><a href="#"> </a></li>
+        <li><a href="#"> </a></li>
+      </ul>
+    </div>
+    <div class="main">
+      <div class="show">
+        <img src="img/1 (15).png" alt="image/1.png" id="show-img">
+		<img src="img/1 (16).png" alt="image/1.png" id="show-img1">
+        <img src="img/1 (15).png" alt="image/1.png" id="show-img">
+		<img src="img/1 (16).png" alt="image/1.png" id="show-img1">
+      </div>
+      <div class="list" id="list">
+        <img src="img/1 (7).png" alt="image/1.png">
+        <img src="img/1 (9).png" alt="image/2.png">
+        <img src="img/1 (10).png" alt="image/3.png">
+		<img src="img/1 (17).png" alt="image/3.png">
+		<img src="img/1 (34).png" alt="image/3.png">
+		<img src="img/1 (24).png" alt="image/3.png">
+		  <img src="img/1 (29).png" alt="image/3.png">
+		  <img src="img/1 (32).png" alt="image/3.png">
+		  <img src="img/1 (33).png" alt="image/3.png">
+		  <img src="img/1 (36).png" alt="image/3.png">
+		  <img src="img/1 (37).png" alt="image/3.png">
+		  <img src="img/1 (40).png" alt="image/3.png">
+        <!-- more images -->
+      </div>
+    </div>
+    <div class="footer">
+      <p>@2023站點聲明：我們立足於美利堅合眾國，受北美法律保護，未滿18歲或被誤導來到這裡，請立即離開。</p>
+    </div>
+  </div>
+  <script>
+    // get the elements
+    var showImg = document.getElementById("show-img");
+    var list = document.getElementById("list");
+
+</script>
+</body>
+</html>						  
